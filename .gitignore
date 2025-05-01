@@ -1,15 +1,31 @@
-# Byte-compiled / optimized / DLL files
+# Build artifacts
+build/
+*.so
+*.o
+*.out
+*.a
+*.dll
+*.dylib
+*.exe
+
+# Python artifacts
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environment
+# Environment folders
 venv/
 env/
+*.egg-info/
 
-# IDE files
+# IDE/editor configs
 .vscode/
 .idea/
 
-# Mac system files
+# OS files
 .DS_Store
+
+# Test artifacts
+*.log
+*.txt
+failed_case_*.txt
